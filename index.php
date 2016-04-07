@@ -11,5 +11,4 @@ $result = $mysqli->query("select 1") or exit($mysqli->error());
 echo var_dump($result->fetch_assoc());
 $mysqli->close();
 
-header('Content-type: ./image.jpg');
 ?>
